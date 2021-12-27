@@ -1,0 +1,48 @@
+.container{
+    width: 500px;
+    height: 200px;
+    margin-top: 150px;
+    background-color: #c3cff7;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    padding-top: 5px;
+    color: #241f1f;
+}
+body > div > h2{
+    width: 500px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+input{
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    background-color:rgb(243, 215, 164);
+    border-radius: 5px;
+}
+.input{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.clock{
+    margin-left: 20px;
+    padding-top: 6px;
+}
+button{
+    text-align: top;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: lightgreen;
+} 
